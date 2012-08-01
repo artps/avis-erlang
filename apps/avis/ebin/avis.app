@@ -1,0 +1,10 @@
+{application,avis,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{avis_app,[]}},
+              {env,[]},
+              {modules,[avis,avis_app,avis_pb,avis_server,
+                        avis_server_listener,avis_server_sup,avis_sup,
+                        gen_nb_server,sequence]}]}.

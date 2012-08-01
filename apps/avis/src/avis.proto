@@ -1,0 +1,11 @@
+message SequenceRequest {
+    required uint32 n = 1;
+}
+
+message SequenceResponse {
+    repeated bytes sequence = 1;
+}
+
+message SequenceError {
+    required bytes message = 1;
+}
